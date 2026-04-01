@@ -1,3 +1,6 @@
+# Physical Topology Diagram
+
+```mermaid
 graph TD
 
     subgraph Entry_Area["Entry / Utility Closet"]
