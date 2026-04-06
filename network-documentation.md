@@ -47,7 +47,7 @@ Main areas include:
 
 ## 1.3 Physical Topology Diagram
 
-\`\`\`mermaid
+```mermaid
 graph TD
 
     subgraph Entry_Area["Entry / Utility Closet"]
@@ -77,7 +77,7 @@ graph TD
 
     Router -. WiFi .-> Phone["Smartphones / Tablets / Laptops"]
     Router -. WiFi .-> IoT["IoT Devices"]
-\`\`\`
+```
 
 ---
 
@@ -105,7 +105,7 @@ graph TD
 
 ## 2.4 Logical Topology Diagram
 
-\`\`\`mermaid
+```mermaid
 graph TD
 
 Internet["Internet"]
@@ -135,7 +135,7 @@ Switch --> PC
 
 WiFi --> Phone["Phones / Tablets / Laptops"]
 WiFi --> IoT["IoT Devices"]
-\`\`\`
+```
 
 ---
 
